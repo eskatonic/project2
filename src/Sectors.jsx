@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 function Sectors(props) {
     const [sectors, setSectors] = useState([]);
@@ -9,12 +10,18 @@ function Sectors(props) {
   
       fetch(url)
         .then((res) => res.json())
-        .then((json) => {
-          setSectors(json);
+        .then((res) => {
+          // console.log(json);
+          setSectors(res);
+          // console.log(json.sectors);
         })
         .catch(console.error);
     }, []);
   
+
+
+    if (sectors && sectors) {
+      console.log(sectors.Sectors);
   return(
     <div>
     <h2>Welcome to the 51st Century!  Please select a destination:</h2>
@@ -23,8 +30,22 @@ function Sectors(props) {
         <button type="submit">SOLOMANI RIM</button>
           <button type="submit">SPINWARD MARCHES</button>
      </section>
+     <h4>Or, if you want to take a tour of everything, check out the</h4>
+       <h4><Nav.Link href='map'>Map of the Galaxy</Nav.Link></h4>
+       <div className="content">
+
+      {/* <h1>{sectors.Sectors}</h1> */}
+
+       </div>
      </div>
   );
+} else {
+    return (
+      <div className="error-message">
+        <h1>LOADING, PLEASE WAIT.</h1>
+      </div>
+    )
+}
   
 }
 

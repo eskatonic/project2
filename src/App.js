@@ -6,7 +6,6 @@ import Sectors from './Sectors';
 import SectorDetails from './SectorDetails';
 import Map from './Map';
 import Library from './Library';
-import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import Header from './Header';
 import Footer from './Footer';
 
