@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import { buildQueries } from '@testing-library/dom';
+import React, { useState, useEffect } from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
+import Sectors from './Sectors';
+import SectorDetails from './SectorDetails';
+import Map from './Map';
+import Library from './Library';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header />
+
+
+      <main>
+
+      <Route path="/" exact component={Sectors} />
+      <Route path="/map" exact component={Map} />
+      <Route path="/library" exact component={Library} />
+      <Route path="/details/:Abbreviation" component={SectorDetails} />
+
+      </main>
+
+    <Footer />
     </div>
+
   );
+
 }
 
 export default App;
