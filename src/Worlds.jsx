@@ -10,13 +10,14 @@ function Worlds(props) {
       };
     
       const [worlds, setWorlds] = useState([]);
+      const [searchString, setSearchString] = useState('Terra');
     
       useEffect(() => {
         getWorlds();
       }, []);
     
       function getWorlds() {
-        const searchString = 'Terra';
+        // const searchString = 'Terra';
         const url = `${searchOptions.api}${searchOptions.endpoint}?q=${searchString}`;
         console.log(url);
     
@@ -28,14 +29,30 @@ function Worlds(props) {
         .catch(console.error);
       }
 
+      function handleChange(event) {
+          setSearchString(event.target.value);
+      }
+
+      function handleSubmit(event) {
+          event.preventDefault();
+          getWorlds();
+      }
+
     return (
         <div>
                   <div >
         <br></br>
 <h2>To locate a world, enter its name in the Search bar.</h2>
 <br></br>
-        <SearchForm />
+
+        <SearchForm 
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
+        searchString={searchString}
+        />
+
         <br></br>
+        
         <SearchResults worlds={worlds} />
 
       </div>
