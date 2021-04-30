@@ -16,10 +16,10 @@ function Header(props) {
                 <Nav.Link href='map'>MAP OF THE GALAXY</Nav.Link>
                 <Nav.Link href='library'>LIBRARY DATA</Nav.Link>
             </Nav>
-            <Form inline>
+            {/* <Form inline>
             <FormControl type='text' placeholder='Search' className='mr-sm-2' />
                 <Button variant='outline-dark'>Search</Button>
-            </Form>
+            </Form> */}
         </Navbar>
 
     </div>

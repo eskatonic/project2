@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-* {
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
 
@@ -44,6 +46,11 @@ header a {
   color: white;
 }
 
+input {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  width: 100%;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

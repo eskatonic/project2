@@ -14,7 +14,7 @@ function Map(props) {
       ></iframe>
       <br></br>
       </div>
-          {/* <img src={require("./travellermapkey.jpg")} alt="Map Key"></img> */}
+          <img src={require('./pictures/travellermapkey.jpg')} alt="Map Key"></img>
     </div>
   );
 }
