@@ -13,14 +13,10 @@ function Header(props) {
         <Navbar bg="light" variant="light">
             <Navbar.Brand href='/'>HITCHHIKER'S GUIDE TO THE IMPERIUM</Navbar.Brand>
             <Nav className='mc-auto'>
-              <Nav.Link href='worlds'>WORLD LOCATOR</Nav.Link>
                 <Nav.Link href='map'>MAP OF THE GALAXY</Nav.Link>
                 <Nav.Link href='library'>LIBRARY DATA</Nav.Link>
+              <Nav.Link href='worlds'>WORLD LOCATOR</Nav.Link>
             </Nav>
-            {/* <Form inline>
-            <FormControl type='text' placeholder='Search' className='mr-sm-2' />
-                <Button variant='outline-dark'>Search</Button>
-            </Form> */}
         </Navbar>
 
     </div>
