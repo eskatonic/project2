@@ -46,11 +46,22 @@ header a {
   color: white;
 }
 
+img {
+  max-width: 65%;
+  height: auto;
+}
+
 input {
   flex-grow: 1;
   font-size: 1.2rem;
   width: 100%;
 }
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -141,4 +152,8 @@ iframe {
   display: flex;
   height: 600px;
   width: 600px;
+}
+
+#modals {
+
 }
