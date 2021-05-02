@@ -2,8 +2,6 @@ import { buildQueries } from '@testing-library/dom';
 import React, { useState, useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-// import Sectors from './Sectors';
-import SectorDetails from './SectorDetails';
 import Map from './Map';
 import Library from './Library';
 import Header from './Header';
@@ -31,7 +29,6 @@ function App() {
       <Route path="/worlds" exact component={Worlds} />
       <Route path="/map" exact component={Map} />
       <Route path="/library" exact component={Library} />
-      <Route path="/details/:Abbreviation" component={SectorDetails} />
 
       </main>
 

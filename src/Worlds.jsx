@@ -10,7 +10,6 @@ function Worlds(props) {
 
   const [worlds, setWorlds] = useState([]);
   const [searchString, setSearchString] = useState("Terra");
-  const [worldArray, setWorldArray] = useState([]);
 
   useEffect(() => {
     getWorlds();
@@ -24,41 +23,24 @@ function Worlds(props) {
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
-        Object.entries(json.Results.Items);
+        console.log(typeof(json));
         console.log(json);
-          setWorlds(json.Results.Items.World);
+        console.log(Object.entries(json.Results.Items));
+          // setWorlds(json.Results.Items.World);
+          setWorlds(json.Results.Items);
+          console.log(typeof(worlds));
         })
         .catch(console.error);
       }
-      
-  // let tempWorlds = Object.values(worlds);
-  // console.log(tempWorlds);
-      
+
   function handleChange(event) {
     setSearchString(event.target.value);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    // getWorldArray();
     getWorlds();
   }
-
-  // function getWorldArray() {
-  //   fetch(worlds)
-  //   .then((results) => results.json())
-  //   .then((results) => {
-  //     console.log(results);
-  //     setWorldArray(results);
-  //     console.log(results);
-  //   })
-  //   .catch(console.error);
-  // }
-
-
-  // setWorldArray(Object.entries(worlds));
-  // console.log(worldArray);
-
 
   return (
     <div>

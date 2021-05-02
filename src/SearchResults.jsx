@@ -1,28 +1,24 @@
-import React from 'react';
+import React from "react";
 // import Card from 'react-bootstrap/Card';
 
-function SearchResults({worlds}) {
-    // Object.entries(worlds);
+function SearchResults({ worlds }) {
+  // return early if no worlds found.
+  if (!worlds) {
+
+
+    return <h2>No Worlds Found!</h2>;
+
+
+  } else {
     console.log(worlds);
-    console.log(worlds);
-    // return early if no worlds found.
-    if (worlds) {
-
-        console.log(worlds);
-
-        return (
-
-            <div className="results">
-                <h2>{worlds}</h2>
-            </div>
-        )
-    } else {
-        console.log(worlds);
-        // console.log(worlds.length);
-
-        return <h2>No Worlds Found!</h2>
-};
-
+    console.log(typeof(worlds));
+    console.log(Object.entries(worlds));
+    return (
+        <div className="results">
+          {worlds.map(item => <h4>WORLD NAME: {item.World.Name} SECTOR: {item.World.Sector} PROFILE: {item.World.Uwp}</h4>)}
+        </div>
+      );
+  }
 }
 
 export default SearchResults;
