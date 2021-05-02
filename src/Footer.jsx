@@ -5,7 +5,7 @@ function Footer(props) {
         <div>
             <br></br>
             <br></br>
-            <footer><i>TRAVELLER™️</i> is the property of <a href="https://www.farfuture.net" target="_blank" rel="noreferrer">Far Future Enterprises</a></footer>
+            <footer><i>TRAVELLER™️</i> is owned by <a href="https://www.farfuture.net" target="_blank" rel="noreferrer">Far Future Enterprises</a> Copyright © 1977 – 2020 Far Future Enterprises.</footer>
 
         </div>
     );

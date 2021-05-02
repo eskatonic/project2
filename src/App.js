@@ -1,4 +1,3 @@
-import { buildQueries } from '@testing-library/dom';
 import React, { useState, useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
@@ -7,8 +6,6 @@ import Library from './Library';
 import Header from './Header';
 import Footer from './Footer';
 import Worlds from './Worlds';
-import SearchForm from './SearchForm';
-import SearchResults from './SearchResults';
 
 
 function App() {
@@ -22,10 +19,8 @@ function App() {
       <Header />
       <br></br>
 
-
       <main>
-
-      {/* <Route path="/" exact component={Sectors} /> */}
+      <Route path="/" exact component={Map} />
       <Route path="/worlds" exact component={Worlds} />
       <Route path="/map" exact component={Map} />
       <Route path="/library" exact component={Library} />

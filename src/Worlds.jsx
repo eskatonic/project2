@@ -16,7 +16,6 @@ function Worlds(props) {
   }, []);
 
   function getWorlds() {
-    // const searchString = 'Terra';
     const url = `${searchOptions.api}${searchOptions.endpoint}?q=${searchString}`;
     console.log(url);
 
@@ -26,7 +25,6 @@ function Worlds(props) {
         console.log(typeof(json));
         console.log(json);
         console.log(Object.entries(json.Results.Items));
-          // setWorlds(json.Results.Items.World);
           setWorlds(json.Results.Items);
           console.log(typeof(worlds));
         })
