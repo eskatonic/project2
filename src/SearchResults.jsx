@@ -4,18 +4,20 @@ import React from "react";
 function SearchResults({ worlds }) {
   // return early if no worlds found.
   if (!worlds) {
-
     return <h2>No Worlds Found!</h2>;
-
   } else {
-    // console.log(worlds);
-    // console.log(typeof(worlds));
-    // console.log(Object.entries(worlds));
     return (
-        <div className="results">
-          {worlds.map(item => <h4>WORLD NAME: {item.World.Name} SECTOR: {item.World.Sector} PROFILE: {item.World.Uwp}</h4>)}
-        </div>
-      );
+      <div>
+        {worlds.map((item) => (
+          <div>
+            <h2>WORLD NAME: {item.World.Name}</h2>
+            <h4>SECTOR: {item.World.Sector}</h4>
+            <h4>UWP: {item.World.Uwp}</h4>
+            <br></br>
+          </div>
+        ))}
+      </div>
+    );
   }
 }
 

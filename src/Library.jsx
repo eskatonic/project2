@@ -1,12 +1,10 @@
 import { Button } from "react-bootstrap";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ModalBody from "react-bootstrap/ModalBody";
 import ModalHeader from "react-bootstrap/ModalHeader";
-import ModalFooter from "react-bootstrap/ModalFooter";
 import ModalTitle from "react-bootstrap/ModalTitle";
-import Header from "./Header";
 
 function Library(props) {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -259,7 +257,9 @@ function Library(props) {
       <br></br>
 
       <div id="modals">
-        <Button class="btn btn-dark" onClick={showModal1}>Amber Travel Zones</Button>
+        <Button class="btn btn-dark" onClick={showModal1}>
+          Amber Travel Zones
+        </Button>
         <Modal show={isOpen1} onHide={hideModal1}>
           <ModalHeader>
             <ModalTitle>Amber Travel Zones</ModalTitle>
@@ -273,7 +273,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal2}>Ancients</Button>
+        <Button class="btn btn-dark" onClick={showModal2}>
+          Ancients
+        </Button>
         <Modal size="lg" show={isOpen2} onHide={hideModal2}>
           <ModalHeader>
             <ModalTitle>Ancients</ModalTitle>
@@ -306,7 +308,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal3}>Aslan</Button>
+        <Button class="btn btn-dark" onClick={showModal3}>
+          Aslan
+        </Button>
         <Modal show={isOpen3} onHide={hideModal3}>
           <ModalHeader>
             <ModalTitle>Aslan</ModalTitle>
@@ -326,7 +330,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal4}>Aslan Hierate</Button>
+        <Button class="btn btn-dark" onClick={showModal4}>
+          Aslan Hierate
+        </Button>
         <Modal show={isOpen4} onHide={hideModal4}>
           <ModalHeader>
             <ModalTitle>Aslan Hierate</ModalTitle>
@@ -352,7 +358,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal5}>Astrography</Button>
+        <Button class="btn btn-dark" onClick={showModal5}>
+          Astrography
+        </Button>
         <Modal show={isOpen5} onHide={hideModal5}>
           <ModalHeader>
             <ModalTitle>Astrography</ModalTitle>
@@ -390,7 +398,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal6}>First Imperium</Button>
+        <Button class="btn btn-dark" onClick={showModal6}>
+          First Imperium
+        </Button>
         <Modal size="lg" show={isOpen6} onHide={hideModal6}>
           <ModalHeader>
             <ModalTitle>First Imperium</ModalTitle>
@@ -441,7 +451,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal7}>Galactic Directions</Button>
+        <Button class="btn btn-dark" onClick={showModal7}>
+          Galactic Directions
+        </Button>
         <Modal show={isOpen7} onHide={hideModal7}>
           <ModalHeader>
             <ModalTitle>Galactic Directions</ModalTitle>
@@ -467,7 +479,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal8}>The Hive</Button>
+        <Button class="btn btn-dark" onClick={showModal8}>
+          The Hive
+        </Button>
         <Modal size="lg" show={isOpen8} onHide={hideModal8}>
           <ModalHeader>
             <ModalTitle>The Hive</ModalTitle>
@@ -520,7 +534,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal9}>Humaniti</Button>
+        <Button class="btn btn-dark" onClick={showModal9}>
+          Humaniti
+        </Button>
         <Modal show={isOpen9} onHide={hideModal9}>
           <ModalHeader>
             <ModalTitle>Humaniti</ModalTitle>
@@ -531,7 +547,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal10}>Jump (FTL) Drives</Button>
+        <Button class="btn btn-dark" onClick={showModal10}>
+          Jump (FTL) Drives
+        </Button>
         <Modal show={isOpen10} onHide={hideModal10}>
           <ModalHeader>
             <ModalTitle>Jump Drives</ModalTitle>
@@ -547,7 +565,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal11}>K'kree (Centaurs)</Button>
+        <Button class="btn btn-dark" onClick={showModal11}>
+          K'kree (Centaurs)
+        </Button>
         <Modal show={isOpen11} onHide={hideModal11}>
           <ModalHeader>
             <ModalTitle>K'kree (Centaurs)</ModalTitle>
@@ -584,7 +604,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal12}>Megacorporations</Button>
+        <Button class="btn btn-dark" onClick={showModal12}>
+          Megacorporations
+        </Button>
         <Modal size="lg" show={isOpen12} onHide={hideModal12}>
           <ModalHeader>
             <ModalTitle>Megacorporations</ModalTitle>
@@ -625,7 +647,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal13}>Naval Bases</Button>
+        <Button class="btn btn-dark" onClick={showModal13}>
+          Naval Bases
+        </Button>
         <Modal size="lg" show={isOpen13} onHide={hideModal13}>
           <ModalHeader>
             <ModalTitle>Naval Bases</ModalTitle>
@@ -665,7 +689,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal14}>Psionics</Button>
+        <Button class="btn btn-dark" onClick={showModal14}>
+          Psionics
+        </Button>
         <Modal show={isOpen14} onHide={hideModal14}>
           <ModalHeader>
             <ModalTitle>Psionics</ModalTitle>
@@ -696,7 +722,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal15}>Red Travel Zones</Button>
+        <Button class="btn btn-dark" onClick={showModal15}>
+          Red Travel Zones
+        </Button>
         <Modal show={isOpen15} onHide={hideModal15}>
           <ModalHeader>
             <ModalTitle>Red Travel Zones</ModalTitle>
@@ -722,7 +750,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal16}>Second Imperium</Button>
+        <Button class="btn btn-dark" onClick={showModal16}>
+          Second Imperium
+        </Button>
         <Modal size="lg" show={isOpen16} onHide={hideModal16}>
           <ModalHeader>
             <ModalTitle>Second Imperium (Rule of Man)</ModalTitle>
@@ -793,7 +823,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal17}>Scout Base</Button>
+        <Button class="btn btn-dark" onClick={showModal17}>
+          Scout Base
+        </Button>
         <Modal show={isOpen17} onHide={hideModal17}>
           <ModalHeader>
             <ModalTitle>Scout Base</ModalTitle>
@@ -821,7 +853,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal18}>Sector</Button>
+        <Button class="btn btn-dark" onClick={showModal18}>
+          Sector
+        </Button>
         <Modal show={isOpen18} onHide={hideModal18}>
           <ModalHeader>
             <ModalTitle>Sector</ModalTitle>
@@ -842,7 +876,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal19}>Solomani (Terrans)</Button>
+        <Button class="btn btn-dark" onClick={showModal19}>
+          Solomani (Terrans)
+        </Button>
         <Modal show={isOpen19} onHide={hideModal19}>
           <ModalHeader>
             <ModalTitle>Solomani (Terrans)</ModalTitle>
@@ -865,7 +901,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal20}>Solomani Confederation</Button>
+        <Button class="btn btn-dark" onClick={showModal20}>
+          Solomani Confederation
+        </Button>
         <Modal size="lg" show={isOpen20} onHide={hideModal20}>
           <ModalHeader>
             <ModalTitle>Solomani Confederation</ModalTitle>
@@ -929,7 +967,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal21}>Solomani Hypothesis</Button>
+        <Button class="btn btn-dark" onClick={showModal21}>
+          Solomani Hypothesis
+        </Button>
         <Modal show={isOpen21} onHide={hideModal21}>
           <ModalHeader>
             <ModalTitle>Solomani Hypothesis</ModalTitle>
@@ -944,7 +984,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal22}>Starport</Button>
+        <Button class="btn btn-dark" onClick={showModal22}>
+          Starport
+        </Button>
         <Modal show={isOpen22} onHide={hideModal22}>
           <ModalHeader>
             <ModalTitle>Starport</ModalTitle>
@@ -973,7 +1015,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal23}>Terra</Button>
+        <Button class="btn btn-dark" onClick={showModal23}>
+          Terra
+        </Button>
         <Modal show={isOpen23} onHide={hideModal23}>
           <ModalHeader>
             <ModalTitle>Terra</ModalTitle>
@@ -989,7 +1033,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal24}>Third Imperium</Button>
+        <Button class="btn btn-dark" onClick={showModal24}>
+          Third Imperium
+        </Button>
         <Modal show={isOpen24} onHide={hideModal24}>
           <ModalHeader>
             <ModalTitle>Third Imperium</ModalTitle>
@@ -1004,7 +1050,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal25}>The Two Thousand Worlds</Button>
+        <Button class="btn btn-dark" onClick={showModal25}>
+          The Two Thousand Worlds
+        </Button>
         <Modal size="lg" show={isOpen25} onHide={hideModal25}>
           <ModalHeader>
             <ModalTitle>The Two Thousand Worlds</ModalTitle>
@@ -1057,7 +1105,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" class="btn btn-dark" onClick={showModal26}>Vargr</Button>
+        <Button class="btn btn-dark" onClick={showModal26}>
+          Vargr
+        </Button>
         <Modal size="lg" show={isOpen26} onHide={hideModal26}>
           <ModalHeader>
             <ModalTitle>Vargr</ModalTitle>
@@ -1131,7 +1181,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal27}>Vargr Extents</Button>
+        <Button class="btn btn-dark" onClick={showModal27}>
+          Vargr Extents
+        </Button>
         <Modal show={isOpen27} onHide={hideModal27}>
           <ModalHeader>
             <ModalTitle>Vargr Extents</ModalTitle>
@@ -1144,7 +1196,9 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal28}>Vilani</Button>
+        <Button class="btn btn-dark" onClick={showModal28}>
+          Vilani
+        </Button>
         <Modal show={isOpen28} onHide={hideModal28}>
           <ModalHeader>
             <ModalTitle>Vilani</ModalTitle>
@@ -1181,80 +1235,112 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal29}>X-Boats</Button>
+        <Button class="btn btn-dark" onClick={showModal29}>
+          X-Boats
+        </Button>
         <Modal show={isOpen29} onHide={hideModal29}>
           <ModalHeader>
             <ModalTitle>X-Boats</ModalTitle>
           </ModalHeader>
-          <ModalBody> The primary means of interstellar communication is the physical transport of messages by a jump-capable ship. Within the Imperium, the method is called the express boat, or X-Boat, system. Small, fast, information carrying ships are specially constructed to make large jumps and carry data for retransmission. Outlying worlds of the Imperium stand nearly four years from the capital, and express boat links have been established to insure the rapid transmission of messages (governmental, commercial, and private) with a maximum of efficiency.<br></br><br></br>
-Selected locations along major trade routes are established as express stations; as orbital facilities which service and refuel xboats on their communications runs. As an xboat arrives in a system, it beams its recorded messages to the express station, which then retransmits them to an xboat standing by for a jump outsystem.<br></br><br></br>Time between jumps is almost always less than four hours, and can be under seven minutes. The speed of communication is thus nearly the speed of jump (xboats are equipped with jump-4 drives, four parsecs per week). In practice, this speed is somewhat reduced as trade routes do not follow straight lines, and not all jumps are made at jump-4. Average speed approximates jump-2.6 per week.</ModalBody>
+          <ModalBody>
+            {" "}
+            The primary means of interstellar communication is the physical
+            transport of messages by a jump-capable ship. Within the Imperium,
+            the method is called the express boat, or X-Boat, system. Small,
+            fast, information carrying ships are specially constructed to make
+            large jumps and carry data for retransmission. Outlying worlds of
+            the Imperium stand nearly four years from the capital, and express
+            boat links have been established to insure the rapid transmission of
+            messages (governmental, commercial, and private) with a maximum of
+            efficiency.<br></br>
+            <br></br>
+            Selected locations along major trade routes are established as
+            express stations; as orbital facilities which service and refuel
+            xboats on their communications runs. As an xboat arrives in a
+            system, it beams its recorded messages to the express station, which
+            then retransmits them to an xboat standing by for a jump outsystem.
+            <br></br>
+            <br></br>Time between jumps is almost always less than four hours,
+            and can be under seven minutes. The speed of communication is thus
+            nearly the speed of jump (xboats are equipped with jump-4 drives,
+            four parsecs per week). In practice, this speed is somewhat reduced
+            as trade routes do not follow straight lines, and not all jumps are
+            made at jump-4. Average speed approximates jump-2.6 per week.
+          </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal30}>Zhodani</Button>
+        <Button class="btn btn-dark" onClick={showModal30}>
+          Zhodani
+        </Button>
         <Modal size="lg" show={isOpen30} onHide={hideModal30}>
           <ModalHeader>
             <ModalTitle>Zhodani</ModalTitle>
           </ModalHeader>
           <ModalBody>
             Human major race (H. sapiens) inhabiting the Zhodani Consulate, a
-            region far spinward of the Imperium.<br></br><br></br>The Zhodani are a branch of
-            humaniti similar in most respects to other human races. In general,
-            they tend to be taller than Solomani or Vilani, and lithe of build.
-            Their most important difference is the acceptance and use of
-            psionics. Zhodani society is divided into three classes: nobles,
-            intendants, and proles. Nobles are the enfranchised ruling
-            class, and receive psionic training from childhood. Intendants are
-            managers and administrators of society, and also receive early
-            training. Proles constitute the masses, are forbidden the use of
-            psionics, and do not receive training. Within this rigid class
-            system, there are two opportunities for promotion to a higher class.
-            All prole children are tested for psionic potential, and those
-            showing high scores are taken from their families and adopted into
-            the intendant class. Intendants are rewarded for great diligence,
-            service to the state, or victory in the psionic games through the
-            granting of noble titles.<br></br><br></br>The presence of psionics in the hands of
-            those in power means that many aspects of society work at high
-            efficiency. Psychology, behavioral science, communications
-            science, and education are more refined and exact than in other
-            societies. Educational methods are finely tuned, and capable of
-            teaching concepts rapidly and accurately. Mental deviance or
-            criminal tendencies can be detected early and corrected with
-            facility.<br></br><br></br>Zhodani society is generally a happy one. Individuals are
+            region far spinward of the Imperium.<br></br>
+            <br></br>The Zhodani are a branch of humaniti similar in most
+            respects to other human races. In general, they tend to be taller
+            than Solomani or Vilani, and lithe of build. Their most important
+            difference is the acceptance and use of psionics. Zhodani society is
+            divided into three classes: nobles, intendants, and proles. Nobles
+            are the enfranchised ruling class, and receive psionic training from
+            childhood. Intendants are managers and administrators of society,
+            and also receive early training. Proles constitute the masses, are
+            forbidden the use of psionics, and do not receive training. Within
+            this rigid class system, there are two opportunities for promotion
+            to a higher class. All prole children are tested for psionic
+            potential, and those showing high scores are taken from their
+            families and adopted into the intendant class. Intendants are
+            rewarded for great diligence, service to the state, or victory in
+            the psionic games through the granting of noble titles.<br></br>
+            <br></br>The presence of psionics in the hands of those in power
+            means that many aspects of society work at high efficiency.
+            Psychology, behavioral science, communications science, and
+            education are more refined and exact than in other societies.
+            Educational methods are finely tuned, and capable of teaching
+            concepts rapidly and accurately. Mental deviance or criminal
+            tendencies can be detected early and corrected with facility.
+            <br></br>
+            <br></br>Zhodani society is generally a happy one. Individuals are
             members of a functioning whole, with each making a contribution to
-            its success. The relative lack of upward mobility for the proles
-            is offset by the possibility for their children to move upwards if
-            they have the proper potential. The burden of responsibility imposed
-            on the intendants is lightened by the ever-present possibility of
-            reward through elevation to the noble classes. The nobles
-            themselves temper their burden of authority with comfort derived
-            from their station in life.<br></br><br></br>The Zhodani have a general
-            distaste for other human races which do not practice psionics.
-            Effective indoctrination and ever-present possibility that one's
-            mind is being read have removed dishonesty and deviance as common
-            features of society. Disagreements still occur, competition thrives,
-            passions flare. But all takes place in an atmosphere of honesty and
-            truth. Individuals can express their feelings without fear and
-            problems are openly dealt with. In non-psionic societies, much is
-            kept secret within the mind. A Zhodani visiting the Imperium would
-            be appalled by the deviousness and dishonesty that pervades society.<br></br><br></br>
+            its success. The relative lack of upward mobility for the proles is
+            offset by the possibility for their children to move upwards if they
+            have the proper potential. The burden of responsibility imposed on
+            the intendants is lightened by the ever-present possibility of
+            reward through elevation to the noble classes. The nobles themselves
+            temper their burden of authority with comfort derived from their
+            station in life.<br></br>
+            <br></br>The Zhodani have a general distaste for other human races
+            which do not practice psionics. Effective indoctrination and
+            ever-present possibility that one's mind is being read have removed
+            dishonesty and deviance as common features of society. Disagreements
+            still occur, competition thrives, passions flare. But all takes
+            place in an atmosphere of honesty and truth. Individuals can express
+            their feelings without fear and problems are openly dealt with. In
+            non-psionic societies, much is kept secret within the mind. A
+            Zhodani visiting the Imperium would be appalled by the deviousness
+            and dishonesty that pervades society.<br></br>
+            <br></br>
             Imperial distaste for the Zhodani is based on two facts. First, the
             Zhodani practice psionics, and an Imperial cannot be sure that a
             Zhodani is not invading his mental privacy at any time. Imperials
             feel exposed and uncomfortable in the presence of Zhodani. Second,
-            because of their psionic abilities, the Zhodani have the most effective authoritarian rule in history. Imperial citizens, used to a
-            great degree of local autonomy, fear Zhodani conquest because of the
-            loss of freedom it would entail.<br></br><br></br>The Zhodani date their empire
-            from the traditional date of the first organized use of psionics
-            on Zhodane, -6731 Imperial, the year of the first olympiad. They
-            achieved jump drive about 1300 years later, in -5415 Imperial. The
-            expansion of the Zhodani was gradual and uneventful. Although some
-            states on the fringe resisted absorption into the Consulate, most
-            were annexed peacefully. The Zhodani first came into conflict with
-            the expanding Third Imperium in the 500's, starting the First
-            Frontier War in a dispute over present and future limits to
-            settlement in the Spinward Marches area. Continuing frontier wars
-            over the next five hundred years have failed to resolve the basic
-            differences between the two empires.
+            because of their psionic abilities, the Zhodani have the most
+            effective authoritarian rule in history. Imperial citizens, used to
+            a great degree of local autonomy, fear Zhodani conquest because of
+            the loss of freedom it would entail.<br></br>
+            <br></br>The Zhodani date their empire from the traditional date of
+            the first organized use of psionics on Zhodane, -6731 Imperial, the
+            year of the first olympiad. They achieved jump drive about 1300
+            years later, in -5415 Imperial. The expansion of the Zhodani was
+            gradual and uneventful. Although some states on the fringe resisted
+            absorption into the Consulate, most were annexed peacefully. The
+            Zhodani first came into conflict with the expanding Third Imperium
+            in the 500's, starting the First Frontier War in a dispute over
+            present and future limits to settlement in the Spinward Marches
+            area. Continuing frontier wars over the next five hundred years have
+            failed to resolve the basic differences between the two empires.
           </ModalBody>
         </Modal>
       </div>

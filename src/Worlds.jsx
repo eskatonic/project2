@@ -17,19 +17,14 @@ function Worlds(props) {
 
   function getWorlds() {
     const url = `${searchOptions.api}${searchOptions.endpoint}?q=${searchString}`;
-    console.log(url);
 
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
-        console.log(typeof(json));
-        console.log(json);
-        console.log(Object.entries(json.Results.Items));
-          setWorlds(json.Results.Items);
-          console.log(typeof(worlds));
-        })
-        .catch(console.error);
-      }
+        setWorlds(json.Results.Items);
+      })
+      .catch(console.error);
+  }
 
   function handleChange(event) {
     setSearchString(event.target.value);
