@@ -147,12 +147,10 @@ footer {
   padding: 1rem;
 }
 
-/* iframe {
-  margin: auto;
-  display: flex;
-  height: 600px;
-  width: 600px;
-} */
+Iframe {
+  border-color: red;
+  border-width: 1rem;
+}
 
 #modals {
   display: grid;

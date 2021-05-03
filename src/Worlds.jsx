@@ -38,8 +38,9 @@ function Worlds(props) {
   return (
     <div>
       <div>
+        <h2>WORLD LOCATION</h2>
         <br></br>
-        <h2>To locate a world, enter its name in the Search bar.</h2>
+        <h4>To locate a world, enter its name in the Search bar.</h4>
         <br></br>
 
         <SearchForm

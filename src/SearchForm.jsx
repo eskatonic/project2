@@ -7,6 +7,7 @@ function SearchForm({ handleSubmit, handleChange, searchString }) {
   return (
     <div>
       <Form onSubmit={handleSubmit} className="form-horizontal">
+        <Form.Row>
         <FormControl
          type="text"
          placeholder="Enter World Name Here"
@@ -15,6 +16,7 @@ function SearchForm({ handleSubmit, handleChange, searchString }) {
          required
          onChange={handleChange}
          value={searchString} />
+         </Form.Row>
          <br></br>
         <Button type="submit" class="btn btn-light">Search</Button>
       </Form>

@@ -5,6 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ModalBody from "react-bootstrap/ModalBody";
 import ModalHeader from "react-bootstrap/ModalHeader";
 import ModalTitle from "react-bootstrap/ModalTitle";
+import aslan from './pictures/aslan.jpeg';
+import hiver from './pictures/hiver.jpeg';
+import kkree from './pictures/kkree.jpeg';
+import vargr from './pictures/vargr.jpeg';
 
 function Library(props) {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -316,6 +320,7 @@ function Library(props) {
             <ModalTitle>Aslan</ModalTitle>
           </ModalHeader>
           <ModalBody>
+            <img src={aslan} alt="aslan"></img><br></br>
             The Aslan are a race of intelligent beings with an established
             interstellar empire spinward and rimward of the Imperium; in
             addition, large numbers have settled within the Imperium. Aslan
@@ -487,6 +492,7 @@ function Library(props) {
             <ModalTitle>The Hive</ModalTitle>
           </ModalHeader>
           <ModalBody>
+            <img src={hiver} alt="hiver"></img><br></br>
             Intelligent major race with a large federation trailing the
             Imperium. Hivers average 1.5 meters from ground to top of upraised
             head and weigh about 150 kilos. Descended from omnivore
@@ -573,6 +579,7 @@ function Library(props) {
             <ModalTitle>K'kree (Centaurs)</ModalTitle>
           </ModalHeader>
           <ModalBody>
+            <img src={kkree} alt="kkree"></img><br></br>
             The Centaurs (they call themselves K'kree) are among the most
             massive of the major races, and are the only examples of the major
             races to be descended from herbivores. An adult Centaur stands about
@@ -1113,6 +1120,7 @@ function Library(props) {
             <ModalTitle>Vargr</ModalTitle>
           </ModalHeader>
           <ModalBody>
+            <img src={vargr} alt="vargr"></img><br></br>
             Intelligent major race derived from Ancient genetic manipulations of
             Terran carnivore/chaser stock, apparently dating from approximately
             the same time that humaniti was scattered to the stars. Inhabiting a

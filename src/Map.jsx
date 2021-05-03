@@ -6,8 +6,8 @@ function Map(props) {
   return (
     <div>
       <div>
-        <h2>Map of the Galaxy</h2>
-        <h3>Scroll to zoom in/out, click and hold to move.</h3>
+        <h2>MAP OF THE GALAXY</h2>
+        <h4>Scroll to zoom in/out, click and hold to move.</h4>
         <Iframe
           title="map"
           src="https://travellermap.com/go/spin/1910?style=print"
