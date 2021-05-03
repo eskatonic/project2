@@ -257,7 +257,7 @@ function Library(props) {
       <br></br>
 
       <div id="modals">
-        <Button class="btn btn-dark" onClick={showModal1}>
+        <Button variant="outline-light" onClick={showModal1}>
           Amber Travel Zones
         </Button>
         <Modal show={isOpen1} onHide={hideModal1}>
@@ -273,7 +273,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal2}>
+        <Button variant="outline-light" onClick={showModal2}>
           Ancients
         </Button>
         <Modal size="lg" show={isOpen2} onHide={hideModal2}>
@@ -308,7 +308,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal3}>
+        <Button variant="outline-light" onClick={showModal3}>
           Aslan
         </Button>
         <Modal show={isOpen3} onHide={hideModal3}>
@@ -330,7 +330,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal4}>
+        <Button variant="outline-light" onClick={showModal4}>
           Aslan Hierate
         </Button>
         <Modal show={isOpen4} onHide={hideModal4}>
@@ -358,7 +358,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal5}>
+        <Button variant="outline-light" onClick={showModal5}>
           Astrography
         </Button>
         <Modal show={isOpen5} onHide={hideModal5}>
@@ -398,7 +398,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal6}>
+        <Button variant="outline-light" onClick={showModal6}>
           First Imperium
         </Button>
         <Modal size="lg" show={isOpen6} onHide={hideModal6}>
@@ -451,7 +451,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal7}>
+        <Button variant="outline-light" onClick={showModal7}>
           Galactic Directions
         </Button>
         <Modal show={isOpen7} onHide={hideModal7}>
@@ -479,7 +479,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal8}>
+        <Button variant="outline-light" onClick={showModal8}>
           The Hive
         </Button>
         <Modal size="lg" show={isOpen8} onHide={hideModal8}>
@@ -534,7 +534,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal9}>
+        <Button variant="outline-light" onClick={showModal9}>
           Humaniti
         </Button>
         <Modal show={isOpen9} onHide={hideModal9}>
@@ -547,7 +547,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal10}>
+        <Button variant="outline-light" onClick={showModal10}>
           Jump (FTL) Drives
         </Button>
         <Modal show={isOpen10} onHide={hideModal10}>
@@ -565,7 +565,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal11}>
+        <Button variant="outline-light" onClick={showModal11}>
           K'kree (Centaurs)
         </Button>
         <Modal show={isOpen11} onHide={hideModal11}>
@@ -604,7 +604,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal12}>
+        <Button variant="outline-light" onClick={showModal12}>
           Megacorporations
         </Button>
         <Modal size="lg" show={isOpen12} onHide={hideModal12}>
@@ -647,7 +647,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal13}>
+        <Button variant="outline-light" onClick={showModal13}>
           Naval Bases
         </Button>
         <Modal size="lg" show={isOpen13} onHide={hideModal13}>
@@ -689,7 +689,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal14}>
+        <Button variant="outline-light" onClick={showModal14}>
           Psionics
         </Button>
         <Modal show={isOpen14} onHide={hideModal14}>
@@ -722,7 +722,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal15}>
+        <Button variant="outline-light" onClick={showModal15}>
           Red Travel Zones
         </Button>
         <Modal show={isOpen15} onHide={hideModal15}>
@@ -750,7 +750,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal16}>
+        <Button variant="outline-light" onClick={showModal16}>
           Second Imperium
         </Button>
         <Modal size="lg" show={isOpen16} onHide={hideModal16}>
@@ -823,7 +823,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal17}>
+        <Button variant="outline-light" onClick={showModal17}>
           Scout Base
         </Button>
         <Modal show={isOpen17} onHide={hideModal17}>
@@ -853,7 +853,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal18}>
+        <Button variant="outline-light" onClick={showModal18}>
           Sector
         </Button>
         <Modal show={isOpen18} onHide={hideModal18}>
@@ -876,7 +876,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal19}>
+        <Button variant="outline-light" onClick={showModal19}>
           Solomani (Terrans)
         </Button>
         <Modal show={isOpen19} onHide={hideModal19}>
@@ -901,7 +901,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal20}>
+        <Button variant="outline-light" onClick={showModal20}>
           Solomani Confederation
         </Button>
         <Modal size="lg" show={isOpen20} onHide={hideModal20}>
@@ -967,7 +967,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal21}>
+        <Button variant="outline-light" onClick={showModal21}>
           Solomani Hypothesis
         </Button>
         <Modal show={isOpen21} onHide={hideModal21}>
@@ -984,7 +984,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal22}>
+        <Button variant="outline-light" onClick={showModal22}>
           Starport
         </Button>
         <Modal show={isOpen22} onHide={hideModal22}>
@@ -1015,7 +1015,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal23}>
+        <Button variant="outline-light" onClick={showModal23}>
           Terra
         </Button>
         <Modal show={isOpen23} onHide={hideModal23}>
@@ -1033,7 +1033,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal24}>
+        <Button variant="outline-light" onClick={showModal24}>
           Third Imperium
         </Button>
         <Modal show={isOpen24} onHide={hideModal24}>
@@ -1050,7 +1050,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal25}>
+        <Button variant="outline-light" onClick={showModal25}>
           The Two Thousand Worlds
         </Button>
         <Modal size="lg" show={isOpen25} onHide={hideModal25}>
@@ -1105,7 +1105,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal26}>
+        <Button variant="outline-light" onClick={showModal26}>
           Vargr
         </Button>
         <Modal size="lg" show={isOpen26} onHide={hideModal26}>
@@ -1181,7 +1181,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal27}>
+        <Button variant="outline-light" onClick={showModal27}>
           Vargr Extents
         </Button>
         <Modal show={isOpen27} onHide={hideModal27}>
@@ -1196,7 +1196,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal28}>
+        <Button variant="outline-light" onClick={showModal28}>
           Vilani
         </Button>
         <Modal show={isOpen28} onHide={hideModal28}>
@@ -1235,7 +1235,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal29}>
+        <Button variant="outline-light" onClick={showModal29}>
           X-Boats
         </Button>
         <Modal show={isOpen29} onHide={hideModal29}>
@@ -1269,7 +1269,7 @@ function Library(props) {
           </ModalBody>
         </Modal>
 
-        <Button class="btn btn-dark" onClick={showModal30}>
+        <Button variant="outline-light" onClick={showModal30}>
           Zhodani
         </Button>
         <Modal size="lg" show={isOpen30} onHide={hideModal30}>

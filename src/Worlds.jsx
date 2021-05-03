@@ -9,7 +9,7 @@ function Worlds(props) {
   };
 
   const [worlds, setWorlds] = useState([]);
-  const [searchString, setSearchString] = useState("Terra");
+  const [searchString, setSearchString] = useState();
 
   useEffect(() => {
     getWorlds();
