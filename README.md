@@ -28,3 +28,5 @@ The API calls are to [The Traveller Map](https://travellermap.com/doc/api).
 Library Data is from the books "Library Data: A-M" and "Library Data: N-Z" from GDW.
 
 The Traveller game in all forms is owned by [Far Future Enterprises](https://www.farfuture.net/). Copyright © 1977 – 2020 Far Future Enterprises.
+
+The React iframe instructions were located here: https://www.npmjs.com/package/react-iframe
